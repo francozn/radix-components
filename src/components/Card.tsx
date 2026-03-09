@@ -22,7 +22,7 @@ export function Card({ title, description, badge, avatarFallback, avatarSrc }: C
         )}
         <Flex direction="column" gap="1" style={{ flex: 1 }}>
           <Flex align="center" justify="between" gap="2">
-            <Heading size="4">{title}</Heading>
+            <Heading size="4" style={{ color: 'var(--color-red-500)' }}>{title}</Heading>
             {badge && <Badge color="violet">{badge}</Badge>}
           </Flex>
           {description && (
