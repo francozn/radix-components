@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__figma-remote-mcp__whoami",
+      "Bash(curl:*)",
+      "mcp__figma-remote-mcp__generate_figma_design",
+      "Bash(open:*)",
+      "mcp__figma-remote-mcp__get_metadata",
+      "mcp__figma-remote-mcp__get_design_context"
+    ]
+  }
+}
